@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "sqbtest"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "Interactive app feedback"
   s.homepage     = "http://squeakback.com"
   s.license      = {
@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/sanjnich/sqbtest.git", :tag => s.version.to_s }
   s.source_files = 'SqueakBack.framework/Headers/*.{h}'
+  s.ios.vendored_frameworks = 'SqueakBack.framework'
   # s.resources    = 'SqueakBack.bundle'
   s.preserve_paths =  'SqueakBack.framework/*', 'SqueakBack.bundle'
   s.frameworks   = 'QuartzCore', 'CoreGraphics', 'CoreMotion', 'SystemConfiguration', 'Foundation', 'OpenGLES', 'AudioToolbox', 'GLKit', 'CoreTelephony', 'UIKit', 'MessageUI', 'SqueakBack'
