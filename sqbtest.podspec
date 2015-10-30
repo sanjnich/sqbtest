@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "sqbtest"
-  s.version      = "0.1.0"
+  s.version      = "0.1.2"
   s.summary      = "Interactive app feedback"
   s.homepage     = "http://squeakback.com"
   s.license      = {
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     }
   s.author       = { "SqueakBack" => "support@squeakback.com" }
   s.platform     = :ios, '8.0'
-  s.source       = { :git => "https://github.com/sqbtest/sqbtest.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/sanjnich/sqbtest.git", :tag => s.version.to_s }
   s.source_files = 'SqueakBack.framework/Headers/*.{h}'
   # s.resources    = 'SqueakBack.bundle'
   s.preserve_paths =  'SqueakBack.framework/*', 'SqueakBack.bundle'
