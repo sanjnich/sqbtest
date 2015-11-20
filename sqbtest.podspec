@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "sqbtest"
-  s.version      = "0.1.3"
+  s.version      = "0.1.4"
   s.summary      = "Interactive app feedback"
   s.homepage     = "http://squeakback.com"
   s.license      = {
